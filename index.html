@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>代辦事項</title>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js'></script>
+        <script src="random.js"/></script>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="https://cdn7.koding.school/favicon.ico" type="image/x-icon">
+    </head>
+    <body>
+        <h1>代辦事項</h1>
+        <div class="box">
+            <input id="input"/>
+            <span id="create">新增</span>
+        </div>
+        
+        <!-- //事項列表(假資料) -->
+        <div class="box">
+            <div id="list">
+                <div class="item">
+                    <span class="text">數學回家作業</span>
+                    <button class="delete">移除</button>
+                    <button class="update">修改</button>
+                </div>
+                <div class="item">
+                    <span class="text">自然報告</span>
+                    <button class="delete">移除</button>
+                    <button class="update">修改</button>
+                </div>
+                <div class="item">
+                    <span class="text">買水彩用品、筆記本</span>
+                    <button class="delete">移除</button>
+                    <button class="update">修改</button>
+                </div>
+                <div class="item">
+                    <span class="text">訂電影票</span>
+                    <button class="delete">移除</button>
+                    <button class="update">修改</button>
+                </div>
+                <div class="item">
+                    <span class="text">幫媽媽寄送包裹</span>
+                    <button class="delete">移除</button>
+                    <button class="update">修改</button>
+                </div>
+            </div>    
+        </div>
+        <div id="control">
+            <button id="deleteAll">移除全部</button>
+            <button id="save">關閉</button>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

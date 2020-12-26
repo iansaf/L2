@@ -1,0 +1,108 @@
+body {
+    font-size: 1rem;
+    padding: 0px 30px;
+    min-height: 100vh;
+    text-align: center;
+    background-image: linear-gradient(#ff6161,#ff768c);
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+}
+
+#input {
+    outline: none;
+    width: 300px;
+    font-size: 1rem;
+    padding: 5px 10px;
+    border: 1px solid #eee;
+    display: inline-block;
+}
+
+#create {
+    padding: 5px 0px;
+    color: #369eff;
+    float: right;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.box {
+    box-sizing: border-box;
+    width: 400px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 1px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0px 5px 2px rgba(0, 0, 0, .1);
+    text-align: left;
+}
+
+.item {
+    color: #555;
+    padding: 10px 0px;
+    border-bottom: 1px solid #eee;
+}
+
+button {
+    padding: 5px 10px;
+    border-width: 0px;
+    border-radius: 6px;
+    background-color: rgba(0,0,0,0);
+    outline: none;
+    color: #000;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: 0 8px 10px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    color: #fff;
+}
+
+#control {
+    background-color: #000;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    padding: 5px 10px;
+    /* border: 2px solid #000; */
+    border-radius: 6px;
+    display: inline-block;
+}
+
+.update {
+    border: 2px solid #00bfff;
+}
+.delete {
+    border: 2px solid #ff768c;
+}
+
+#save {
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+#deleteAll {
+    border: 2px solid #ff768c;
+    color: #fff;
+}
+
+.update:hover {
+    background-color: #00bfff;
+}
+
+.delete:hover {
+    background-color: #ff768c;
+}
+
+#save:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+#deleteAll:hover {
+    background-color: #ff768c;
+    color: #000;
+}
